@@ -46,7 +46,7 @@ document
   .addEventListener("submit", function (e) {
     e.preventDefault();
 
-    emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this).then(
+    emailjs.sendForm("service_mv8izn8", "template_zo4ag16", this).then(
       function () {
         alert("Message sent successfully!");
         document.getElementById("contact-form").reset();
